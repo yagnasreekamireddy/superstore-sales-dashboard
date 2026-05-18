@@ -47,8 +47,7 @@ An interactive single-page dashboard with:
 ---
 
 ## Dashboard Preview
-
-![Dashboard](https://raw.githubusercontent.com/yagnasreekamireddy/superstore-sales-Dashboard/main/dashboard_screenshot.png)
+![Dashboard](dashboard_screenshot.png)
 
 ---
 
