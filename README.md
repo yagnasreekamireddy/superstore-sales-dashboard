@@ -1,98 +1,83 @@
-# superstore-sales-Dashboard
-Interactive Power BI dashboard analysing Superstore sales across regions, categories, and customer segments — tracking KPIs including revenue, profit, payment mode, and shipping performance.
-# 📊 Super Store Sales Dashboard — Power BI
+# Super Store Sales Dashboard — Power BI
 
-An interactive Power BI dashboard built on the Superstore Sales dataset, tracking revenue, profit, and customer behaviour across regions, categories, and shipping modes.
-
----
-
-## 🖼️ Dashboard Preview
-
-![Super Store Sales Dashboard](./dashboard_screenshot.png)
+I built this dashboard to practice turning raw retail transaction 
+data into something a business stakeholder could actually use. 
+The Superstore dataset is a classic one and I wanted to see what 
+meaningful insights I could pull out of it using Power BI.
 
 ---
 
-## 📌 Project Overview
+## What I looked at
 
-Retail businesses generate large volumes of transactional data that often go underutilised. This dashboard consolidates Superstore sales data into a single interactive view — allowing business stakeholders to monitor KPIs, identify high-performing segments, and make faster decisions without digging through raw spreadsheets.
-
-**Key result:** Reduced report generation time by ~30% by replacing manual Excel reporting with dynamic DAX-powered visuals and slicers.
-
----
-
-## 🗂️ Dataset
-
-- **Source:** Superstore Sales Dataset (publicly available on Kaggle)
-- **Domain:** US Retail
-- **Key fields:** Order Date, Region, Category, Sub-Category, Segment, Payment Mode, Ship Mode, Sales, Quantity, Profit
+Sales performance across regions, product categories, customer 
+segments, payment modes and shipping types. The goal was to 
+answer questions like — which regions are most profitable, 
+which categories sell the most, and how are customers paying?
 
 ---
 
-## 🔧 Tech Stack
+## Tools I used
 
-| Tool | Purpose |
-|------|---------|
-| Power BI Desktop | Dashboard development |
-| DAX | Calculated measures and KPIs |
-| Excel / CSV | Data source |
+Power BI Desktop, DAX, Excel/CSV
 
 ---
 
-## 📈 Dashboard Features
+## Where the data came from
 
-### KPI Cards
-- Total Sales Revenue — **$1.25K**
-- Total Quantity Sold — **0.03K**
-- Sum of Profit — **$67.9K**
-
-### Charts & Visuals
-
-| Visual | Insight |
-|--------|---------|
-| Sales by Order Date (line chart) | Sales and country count trend over time |
-| Sales by Sub-Category (bar chart) | Top sub-categories: Phones, Chairs, Binders, Tables |
-| Sales by Category (bar chart) | Office Supplies (205K) leads, followed by Technology (162K) and Furniture (156K) |
-| Sales by Payment Mode (donut) | COD 43% · Online 36% · Cards 22% |
-| Sales by Segment (donut) | Consumer 44% · Corporate 35% · Home Office 21% |
-| Sales by Ship Mode (bar chart) | Standard class dominates at 96K |
-| Sum of Sales & Profit by State (map) | Geographic distribution across US states |
-
-### Filters / Slicers
-- Region filter: Central · East · South · West
+Superstore Sales Dataset — publicly available on Kaggle.
+US retail transactions covering orders, regions, categories,
+segments, shipping and payment data.
 
 ---
 
-## 💡 Key Business Insights
+## What I built
 
-- **Office Supplies** is the top-selling category — ideal for promotional focus
-- **COD** is the most preferred payment mode (43%), suggesting trust barriers for digital payment adoption
-- **Consumer segment** drives nearly half of all sales — high-value target for loyalty programmes
-- **Standard shipping** accounts for the majority of orders — cost optimisation opportunity for faster tiers
-- **Phones and Chairs** are the top sub-categories — worth prioritising in inventory planning
+An interactive single-page dashboard with:
 
----
-
-## 🚀 How to Open
-
-1. Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-2. Clone or download this repository
-3. Open `Superstore_Sales_Dashboard.pbix` in Power BI Desktop
-4. The dashboard loads with all visuals and slicers ready to use
+- KPI cards for total sales, quantity sold and profit
+- Sales trend over time (line chart)
+- Top sub-categories by sales (bar chart)
+- Sales by category — Office Supplies, Technology, Furniture
+- Payment mode breakdown — COD, Online, Cards (donut chart)
+- Customer segment split — Consumer, Corporate, Home Office
+- Shipping mode analysis
+- Geographic map of sales and profit by US state
+- Region slicer to filter everything — Central, East, South, West
 
 ---
 
-## 📁 Project Structure
+## Dashboard Preview
 
-```
-superstore-sales-dashboard/
-│
-├── data/
-│   └── superstore_sales.csv
-│
-├── dashboard_screenshot.png
-├── Superstore_Sales_Dashboard.pbix
-└── README.md
-```
+![Dashboard](https://raw.githubusercontent.com/yagnasreekamireddy/superstore-sales-Dashboard/main/dashboard_screenshot.png)
 
 ---
 
+## What I found
+
+- Office Supplies is the top selling category, ahead of 
+  Technology and Furniture
+- COD is the most preferred payment method at 43% which 
+  suggests a lot of customers still don't fully trust 
+  online payments
+- The Consumer segment drives nearly half of all sales — 
+  the most important group to retain
+- Standard shipping dominates, which makes sense for 
+  cost-conscious buyers but leaves room to upsell faster tiers
+- Phones and Chairs are the top two sub-categories — 
+  worth prioritising in inventory and promotions
+
+---
+
+## How to open it
+
+1. Download Power BI Desktop (free from Microsoft)
+2. Download the .pbit file from this repo
+3. Open it in Power BI Desktop
+4. Dashboard loads with all visuals and slicers ready
+
+---
+
+## Author
+
+Yagnasree Kamireddy  
+[GitHub](https://github.com/yagnasreekamireddy)
