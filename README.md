@@ -1,17 +1,17 @@
 # Super Store Sales Dashboard — Power BI
 
-I built this dashboard to practice turning raw retail transaction 
-data into something a business stakeholder could actually use. 
-The Superstore dataset is a classic one and I wanted to see what 
+I built this dashboard to practice turning raw retail transaction
+data into something a business stakeholder could actually use.
+The Superstore dataset is a classic one and I wanted to see what
 meaningful insights I could pull out of it using Power BI.
 
 ---
 
 ## What I looked at
 
-Sales performance across regions, product categories, customer 
-segments, payment modes and shipping types. The goal was to 
-answer questions like — which regions are most profitable, 
+Sales performance across regions, product categories, customer
+segments, payment modes and shipping types. The goal was to
+answer questions like — which regions are most profitable,
 which categories sell the most, and how are customers paying?
 
 ---
@@ -47,22 +47,23 @@ An interactive single-page dashboard with:
 ---
 
 ## Dashboard Preview
+
 ![Dashboard](dashboard_screenshot.png)
 
 ---
 
 ## What I found
 
-- Office Supplies is the top selling category, ahead of 
+- Office Supplies is the top selling category, ahead of
   Technology and Furniture
-- COD is the most preferred payment method at 43% which 
-  suggests a lot of customers still don't fully trust 
+- COD is the most preferred payment method at 43% which
+  suggests a lot of customers still don't fully trust
   online payments
-- The Consumer segment drives nearly half of all sales — 
+- The Consumer segment drives nearly half of all sales —
   the most important group to retain
-- Standard shipping dominates, which makes sense for 
+- Standard shipping dominates, which makes sense for
   cost-conscious buyers but leaves room to upsell faster tiers
-- Phones and Chairs are the top two sub-categories — 
+- Phones and Chairs are the top two sub-categories —
   worth prioritising in inventory and promotions
 
 ---
